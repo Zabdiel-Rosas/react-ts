@@ -1,0 +1,32 @@
+/* GuestList Styles */
+
+.guest-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 300px;
+  padding: 10px;
+  border: solid 1px #333;
+  border-radius: 10px;
+}
+
+.guest-pitcture {
+  width: 95px;
+  height: 95px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.guest-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100px;
+}
+
+.guest-text {
+  margin: 0;
+}

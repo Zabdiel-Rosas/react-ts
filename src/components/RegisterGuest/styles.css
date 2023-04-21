@@ -1,0 +1,27 @@
+/* Register Guest Styles */
+.registration-form {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rg-input {
+  width: 320px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.register-button {
+  width: 250px;
+  color: white;
+  background-color: purple;
+  border: solid 2px purple;
+}
+
+.register-button:hover {
+  color: purple;
+  background-color: white;
+  border: solid 2px purple;
+}
